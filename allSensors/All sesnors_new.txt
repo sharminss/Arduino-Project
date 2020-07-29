@@ -81,7 +81,7 @@ myFile.println("Prblem");
 void loop() { 
   
 
-  //side crack rcvr
+  //side crack reciver
   if (irrecv.decode(&results)) {
     Serial.println(results.value, HEX);
     Serial.println("###############################side crack");
@@ -125,7 +125,7 @@ void loop() {
 //  }
 
 
-  //surface crack
+  //surface crack part
   long duration3, distance3;
   digitalWrite(trigPin2, LOW); 
 
